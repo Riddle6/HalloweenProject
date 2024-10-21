@@ -83,6 +83,7 @@ img {
     display: grid;
 }
 
+
 .one {
     min-height: 250px;
     background-image: url(../images/balloons.jpg);
@@ -128,6 +129,32 @@ img {
 .seven {
     background-color: #f30c;
     min-height: 150px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+    border: 2px dashed #0b7ab0;
+    background-color: #375872;
+    color: #fff;
+    border-radius: 15px;
+}
+
+.card header {
+    background-color: #999;
+    color: #333;
+    padding: 5%;
+}
+
+.card .content {
+    padding: 5%;
+}
+
+.card footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5%;
+    max-height: 100px;
 }
 
 
